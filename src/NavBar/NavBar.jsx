@@ -1,4 +1,4 @@
-import Logo from "../Logo";
+import Logo from "../Etc/Logo";
 import DarkModeButton from "../NavBar/DarkModeButton";
 import { MdOutlineWorkOutline, MdOutlineWork, MdInfo, MdInfoOutline, MdDehaze, MdInsertChartOutlined, MdInsertChart } from "react-icons/md";
 import { TbMessageFilled, TbMessage } from "react-icons/tb";
