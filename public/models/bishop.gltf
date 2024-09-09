@@ -1,88 +1,91 @@
 {
-    "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
-        "version" : "2.0"
-    },
-    "scene" : 0,
-    "scenes" : [
-        {
-            "name" : "Scene",
-            "nodes" : [
-                0
-            ]
-        }
-    ],
-    "nodes" : [
-        {
-            "mesh" : 0,
-            "name" : "bishop"
-        }
-    ],
-    "meshes" : [
-        {
-            "name" : "bishop",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 0,
-                        "NORMAL" : 1
-                    },
-                    "indices" : 2
-                }
-            ]
-        }
-    ],
-    "accessors" : [
-        {
-            "bufferView" : 0,
-            "componentType" : 5126,
-            "count" : 1389098,
-            "max" : [
-                0.014710187911987305,
-                0.0393848679959774,
-                0.014702320098876953
-            ],
-            "min" : [
-                -0.014693975448608398,
-                -0.02251330390572548,
-                -0.014701694250106812
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 1,
-            "componentType" : 5126,
-            "count" : 1389098,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 2,
-            "componentType" : 5125,
-            "count" : 1392804,
-            "type" : "SCALAR"
-        }
-    ],
-    "bufferViews" : [
-        {
-            "buffer" : 0,
-            "byteLength" : 16669176,
-            "byteOffset" : 0
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 16669176,
-            "byteOffset" : 16669176
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5571216,
-            "byteOffset" : 33338352
-        }
-    ],
-    "buffers" : [
-        {
-            "byteLength" : 38909568,
-            "uri" : "bishop.bin"
-        }
-    ]
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v4.2.60",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"name":"Scene",
+			"nodes":[
+				0
+			]
+		}
+	],
+	"nodes":[
+		{
+			"mesh":0,
+			"name":"bishop"
+		}
+	],
+	"meshes":[
+		{
+			"name":"bishop",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1
+					},
+					"indices":2
+				}
+			]
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":62539,
+			"max":[
+				0.014710187911987305,
+				0.0393848679959774,
+				0.014702320098876953
+			],
+			"min":[
+				-0.014693975448608398,
+				-0.02251330390572548,
+				-0.014701694250106812
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":62539,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5123,
+			"count":104289,
+			"type":"SCALAR"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":750468,
+			"byteOffset":0,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":750468,
+			"byteOffset":750468,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":208578,
+			"byteOffset":1500936,
+			"target":34963
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":1709516,
+			"uri":"bishop.bin"
+		}
+	]
 }
