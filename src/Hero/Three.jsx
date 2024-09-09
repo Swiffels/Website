@@ -189,7 +189,7 @@ const Three = (refContainer) => {
   };
 
   const PrintText = (Text, Pos, loader, scene, num) => {
-    loader.load("/Fonts/helvetiker_regular.typeface.json", function (font) {
+    loader.load("assets/Fonts/helvetiker_regular.typeface.json", function (font) {
       const geometry = new TextGeometry(Text, {
         font: font,
         size: 10, // Increased size for better visibility and to handle bevels properly
