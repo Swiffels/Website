@@ -16,6 +16,9 @@ export default {
         copper: { DEFAULT: "#b78152", 100: "#251a10", 200: "#4b341f", 300: "#704d2f", 400: "#96673f", 500: "#b78152", 600: "#c59a75", 700: "#d4b497", 800: "#e2cdba", 900: "#f1e6dc" },
         sandy_brown: { DEFAULT: "#ef9e57", 100: "#3c1f06", 200: "#773e0b", 300: "#b35d11", 400: "#ea7c1b", 500: "#ef9e57", 600: "#f3b179", 700: "#f6c59a", 800: "#f9d8bc", 900: "#fcecdd" },
       },
+      fontFamily: {
+        custom: ["LeagueSpartan", "sans-serif"], // Use your font name
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

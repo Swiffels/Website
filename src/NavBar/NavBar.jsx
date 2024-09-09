@@ -21,7 +21,7 @@ const NavBar = () => {
 const NavButton = ({ name, icon }) => {
   return (
     <div className="!ml-1.5">
-      <button className="flex flex-col drop-shadow-md hover:drop-shadow-lg hover:bg-antiwhite-500 rounded-md my-[0.5] mx-1 px-4 py-2 items-center">
+      <button className="flex flex-col drop-shadow-md hover:drop-shadow-lg hover:bg-antiwhite-500 rounded-md my-[0.5] mx-1 text-sm md:text-md px-1 md:px-4 py-1 md:py-2 items-center">
         <span className="scale-1">{name}</span>
       </button>
     </div>
