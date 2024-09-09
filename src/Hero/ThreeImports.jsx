@@ -5,7 +5,7 @@ const importModel = (name, scene, callback) => {
   const loader = new GLTFLoader();
 
   loader.load(
-    `public/Assets/${name}.gltf`,
+    `assets/${name}.gltf`,
     function (gltf) {
       gltf.scene.scale.set(30, 30, 30);
       scene.add(gltf.scene);
