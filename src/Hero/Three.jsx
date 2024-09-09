@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { FontLoader } from "three/addons/loaders/FontLoader.js";
 import { TextGeometry } from "three/addons/geometries/TextGeometry.js";
+import textFont from "/assets/Fonts/helvetiker_regular.typeface.json";
 import importModel from "./ThreeImports";
 
 const Three = (refContainer) => {
@@ -189,7 +190,7 @@ const Three = (refContainer) => {
   };
 
   const PrintText = (Text, Pos, loader, scene, num) => {
-    loader.load("assets/Fonts/helvetiker_regular.typeface.json", function (font) {
+    loader.load("/assets/Fonts/helvetiker_regular.typeface.json", function (font) {
       const geometry = new TextGeometry(Text, {
         font: font,
         size: 10, // Increased size for better visibility and to handle bevels properly
