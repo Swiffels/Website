@@ -1,7 +1,7 @@
 /* src/styles/fonts.css */
 @font-face {
   font-family: "LeagueSpartan";
-  src: url("assets/Fonts/LeagueSpartan-VariableFont_wght.ttf") format("ttf");
+  src: url("public/Fonts/LeagueSpartan-VariableFont_wght.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
