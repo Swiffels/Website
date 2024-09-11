@@ -1,12 +1,13 @@
-const ProjectButton = ({ name, image, description }) => {
+const ProjectButton = ({ name, icon }) => {
   return (
-    <div className="md:w-full h-auto border-steel_blue-400 bg-steel_blue-600 bg-gradient-to-r from-steel_blue-700 border-2 rounded-2xl transition-transform duration-300 ease-in-out transform hover:-translate-y-2 my-4 mx-6">
-      <button className="flex flex-col items-center w-full text-center h-72">
-        <div className="overflow-hidden rounded-t-2xl h-64">
-          <img src={image} alt={name} className="rounded-t-2xl object-cover w-full h-max object-center" />
+    <div className="w-72 h-36 bg-antiwhite-700 border-2 border-black rounded-xl transition-transform duration-300 ease-in-out transform hover:-translate-y-2 my-4 mx-6">
+      <button className="flex flex-row items-center text-center h-36">
+        <div className="overflow-clip grid w-36 rounded-xl">
+          <img src={icon} alt={name} className="rounded-xl max-h-24 max-w-24 block m-auto" />
         </div>
-        <h1 className="font-bold text-lg md:text-2xl pt-2 pb-1">{name}</h1>
-        <p className="font-semibold text-md md:text-xl pb-1">{description}</p>
+        <div className="flex-1">
+          <h1 className="font-bold text-2xl pr-2">{name}</h1>
+        </div>
       </button>
     </div>
   );

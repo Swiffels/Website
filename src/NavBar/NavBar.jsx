@@ -1,7 +1,5 @@
 import Logo from "../Etc/Logo";
 import DarkModeButton from "../NavBar/DarkModeButton";
-import { MdOutlineWorkOutline, MdOutlineWork, MdInfo, MdInfoOutline, MdDehaze, MdInsertChartOutlined, MdInsertChart } from "react-icons/md";
-import { TbMessageFilled, TbMessage } from "react-icons/tb";
 
 const NavBar = () => {
   return (
@@ -22,7 +20,7 @@ const NavButton = ({ name }) => {
   return (
     <div className="!ml-1.5">
       <button className="flex flex-col drop-shadow-md hover:drop-shadow-lg hover:bg-antiwhite-500 rounded-md my-[0.5] mx-1 text-sm md:text-md px-1 md:px-4 py-1 md:py-2 items-center">
-        <span className="scale-1">{name}</span>
+        <span className="scale-1 font-semibold">{name}</span>
       </button>
     </div>
   );
