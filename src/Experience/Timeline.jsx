@@ -16,7 +16,6 @@ const Timeline = () => {
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth((prevWidth) => {
-        console.log(prevWidth);
         return window.innerWidth;
       });
     };
