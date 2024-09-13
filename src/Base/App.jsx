@@ -1,3 +1,6 @@
+import About from "../About/About";
+import Contact from "../Contact/Contact";
+import Experince from "../Experience/Experience";
 import Hero from "../Hero/Hero";
 import NavBar from "../NavBar/NavBar";
 import FeaturedProjects from "../Projects/FeaturedProjects";
@@ -12,6 +15,9 @@ function App() {
       <Hero />
       <FeaturedProjects />
       <Projects />
+      <Experince />
+      <About />
+      <Contact />
     </div>
   );
 }
