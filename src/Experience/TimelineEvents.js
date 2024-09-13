@@ -10,7 +10,7 @@ const experience = [
     heading: "Code Ninjas",
     subheading: "Coding Instructor",
     date: "Dec 2019 - Present",
-    description: "I help teach kids how to code in Javascript, C#, Lua, and Python. I also have developed game servers for Code Ninjas to be able to host parties and other events.  🐱‍👤",
+    description: "I help teach kids how to code in Javascript, C#, Lua, and Python. I also have developed game servers for Code Ninjas to be able to host parties and other events.  👨‍💻",
     direction: "right",
   },
   {
