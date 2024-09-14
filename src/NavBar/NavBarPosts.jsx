@@ -6,9 +6,9 @@ const NavBarPosts = () => {
     <div className="flex justify-between flex-row flex-auto items-center w-screen h-[4.7rem] bg-antiwhite-700 sticky top-0 z-10">
       <Logo />
       <div className="flex justify-end space-x-4 items-center pr-2 sm:4 ">
-        <NavButton name="Projects" href={"https://www.shawnprather.dev/#projects"} />
-        <NavButton name="Experience" href={"https://www.shawnprather.dev/#experience"} />
-        <NavButton name="About" href={"https://www.shawnprather.dev/#about"} />
+        <NavButton name="Projects" href={"https://shawnprather.dev/#projects"} />
+        <NavButton name="Experience" href={"https://shawnprather.dev/#experience"} />
+        <NavButton name="About" href={"https://shawnprather.dev/#about"} />
         <NavButton name="Contact" href={"#contact"} />
       </div>
     </div>
