@@ -1,5 +1,5 @@
 import Home from "/src/Base/Home.jsx";
-import Template from "./Template";
+import AlarmClockPost from "/src/Posts/AlarmClockPost.jsx";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="template" element={<Template />} />
+        <Route path="AlarmClock" element={<AlarmClockPost />} />
       </Routes>
     </BrowserRouter>
   );

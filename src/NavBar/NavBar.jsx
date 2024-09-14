@@ -1,5 +1,4 @@
 import Logo from "../Etc/Logo";
-import DarkModeButton from "../NavBar/DarkModeButton";
 
 const NavBar = () => {
   return (

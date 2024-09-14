@@ -1,6 +1,5 @@
 import Logo from "../Etc/Logo";
 import { HashLink } from "react-router-hash-link";
-import DarkModeButton from "./DarkModeButton";
 
 const NavBarPosts = () => {
   return (
