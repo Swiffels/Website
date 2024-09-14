@@ -3,7 +3,7 @@ import DarkModeButton from "../NavBar/DarkModeButton";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between flex-row flex-auto items-center w-screen h-[4.7rem] bg-antiwhite-700 absolute z-10">
+    <div className="flex justify-between flex-row flex-auto items-center w-screen h-[4.7rem] bg-antiwhite-700 sticky top-0 z-10">
       <Logo />
       <div className="flex justify-end space-x-4 items-center pr-1 sm:4 ">
         <NavButton name="Projects" href={"#projects"} />
