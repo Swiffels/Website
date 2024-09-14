@@ -1,4 +1,4 @@
-import Img from "/assets/Images/Posts/AlarmClock/alarmclock0.jpg";
+import Img from "/assets/Images/Posts/AlarmClock/alarmclock.jpg";
 import img1 from "/assets/Images/Posts/AlarmClock/alarmclock1.jpg";
 import img2 from "/assets/Images/Posts/AlarmClock/alarmclock2.jpg";
 import img3 from "/assets/Images/Posts/AlarmClock/alarmclock3.jpg";
