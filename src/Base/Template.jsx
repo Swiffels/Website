@@ -1,4 +1,3 @@
-import Logo from "/assets/logo.png";
 import Img from "/assets/Images/Posts/geko.jpg";
 import img1 from "/assets/Images/Posts/AlarmClock/alarmclock1.jpg";
 import Contact from "../Contact/Contact";
@@ -8,7 +7,6 @@ import NavBarPosts from "../NavBar/NavBarPosts";
 const Template = () => {
   return (
     <div className="w-screen scroll-smooth h-screen transition-colors overflow-x-hidden">
-      <link rel="icon" type="image/png" href={Logo} />
       <NavBarPosts />
       <Blog />
       <Contact />

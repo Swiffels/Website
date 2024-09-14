@@ -5,12 +5,10 @@ import Hero from "../Hero/Hero";
 import NavBar from "../NavBar/NavBar";
 import FeaturedProjects from "../Projects/FeaturedProjects";
 import Projects from "../Projects/Projects";
-import Logo from "/assets/logo.png";
 
 const Home = () => {
   return (
     <div className="w-screen scroll-smooth h-screen transition-colors overflow-x-hidden">
-      <link rel="icon" type="image/png" href={Logo} />
       <NavBar />
       <Hero />
       <FeaturedProjects />
