@@ -12,8 +12,8 @@ const Three = (refContainer) => {
 
   function initScene() {
     var scene = new THREE.Scene();
-    var camera = new THREE.PerspectiveCamera(75, window.innerWidth / Height, 0.1, 1000);
-    var renderer = new THREE.WebGLRenderer();
+    var camera = new THREE.PerspectiveCamera(80, window.innerWidth / Height, 0.1, 1000);
+    var renderer = new THREE.WebGLRenderer({ antialias: true });
     camera.lookAt(0, 0, 0);
     renderer.setSize(window.innerWidth, Height);
     scene.background = new THREE.Color(0x212121);
