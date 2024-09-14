@@ -3,12 +3,13 @@ import Img from "/assets/Images/Posts/geko.jpg";
 import img1 from "/assets/Images/Posts/AlarmClock/alarmclock1.jpg";
 import Contact from "../Contact/Contact";
 import NavBar from "../NavBar/NavBar";
+import NavBarPosts from "../NavBar/NavBarPosts";
 
 const Template = () => {
   return (
-    <div className="w-screen h-screen transition-colors overflow-x-hidden">
+    <div className="w-screen scroll-smooth h-screen transition-colors overflow-x-hidden">
       <link rel="icon" type="image/png" href={Logo} />
-      <NavBar />
+      <NavBarPosts />
       <Blog />
       <Contact />
     </div>
@@ -28,25 +29,17 @@ const NameImage = () => {
   return (
     <div className="relative inline-block w-full">
       <img src={Img} className="max-h-[28rem] w-full object-cover" />
-      <h1
-        className="absolute top-0 left-0 w-full h-full flex items-center justify-center text-antiwhite-900 font-custom font-extrabold text-5xl pt-8 pb-10 text-center"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
-      >
-        Making an IoT Alarm Clock
-      </h1>
-      <h2
-        className="absolute top-12 left-0 w-full h-full flex items-center justify-center text-raisin_black-900 font-custom font-semibold text-4xl pt-8 pb-10 text-center"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
-      >
-        Webservers and HTTPS
-      </h2>
+      <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
+        <h1 className=" text-antiwhite-900 font-custom font-extrabold text-3xl sm:text-5xl pt-8 pb-0 text-center">Making an IoT Alarm Clock</h1>
+        <h2 className=" text-raisin_black-900 font-custom font-semibold text-2xl sm:text-4xl pt-0 pb-10 text-center">Webservers and HTTPS</h2>
+      </div>
     </div>
   );
 };
 
 const Text = () => {
   return (
-    <div className="prose mx-auto mb-4 pt-10 w-full">
+    <div className="prose mx-auto px-8 mb-4 pt-10 w-full">
       <h3>I can't wake up.</h3>
       <p className="indent-12">
         So I have a problem waking up. I have missed classes in high school and almost been late for important meetings due to not being able to wake up to my alarms. I was even given a alarm clock

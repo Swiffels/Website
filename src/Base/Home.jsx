@@ -9,7 +9,7 @@ import Logo from "/assets/logo.png";
 
 const Home = () => {
   return (
-    <div className="w-screen h-screen transition-colors overflow-x-hidden">
+    <div className="w-screen scroll-smooth h-screen transition-colors overflow-x-hidden">
       <link rel="icon" type="image/png" href={Logo} />
       <NavBar />
       <Hero />
