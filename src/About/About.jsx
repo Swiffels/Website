@@ -12,9 +12,9 @@ const About = () => {
         </div>
         <div className="lg:w-1/2">
           <p className="2xl:w-1/2 w-full p-4 lg:pt-0 text-antiwhite-500 font-custom font-semibold text-2xl my-auto ">
-            I'm currently a student a School of Mines studying computer science and artifical intelligence. I also work on making a lot of different projects for stuff I find insteresting. Outside of
-            engineering I enjoy taking care of my two pet rabbits(Rusty and Reese), working on learning more Japanese, and playing video games. I recently learned how to pan for gold and have been out
-            doing that when I have the time as well.
+            I'm currently a student at Colorado School of Mines studying Computer Science and Artifical Intelligence. I also work on making a lot of different projects for stuff I find interesting.
+            Outside of engineering I enjoy taking care of my two pet rabbits(Rusty and Reese), working on learning more Japanese, and playing video games. I recently learned how to pan for gold and
+            have been out doing that when I have the time.
           </p>
         </div>
       </div>

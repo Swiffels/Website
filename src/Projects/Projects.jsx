@@ -6,6 +6,7 @@ import FlightProgramLogo from "/assets/ProjectLogos/FlightProgramLogo.png";
 import JapaneseLogo from "/assets/ProjectLogos/JapaneseLogo.png";
 import ThreeDPrintingLogo from "/assets/ProjectLogos/3dPrintingLogo.png";
 import PopcornLogo from "/assets/ProjectLogos/PopcornLogo.png";
+import VideoEditingLogo from "/assets/ProjectLogos/VideoEditingLogo.png";
 
 function FeaturedProjects() {
   return (
@@ -19,6 +20,7 @@ function FeaturedProjects() {
         <ProjectButton name={"Learning Japanese"} icon={JapaneseLogo} />
         <ProjectButton name={"3D Modeling & Printing"} icon={ThreeDPrintingLogo} />
         <ProjectButton name={"Selling Over 30k Worth of Popcorn"} icon={PopcornLogo} />
+        <ProjectButton name={"Video Editing"} icon={VideoEditingLogo} />
       </div>
     </div>
   );
