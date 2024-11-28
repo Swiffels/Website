@@ -1,5 +1,5 @@
 import Timeline from "../Experience/Timeline";
-import Resume from "/assets/ShawnPrather - Resume.pdf";
+import Resume from "/assets/ShawnPrather_Resume.pdf";
 
 const Experience = () => {
   return (
