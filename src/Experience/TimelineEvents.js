@@ -1,38 +1,46 @@
 const experience = [
   {
+    heading: "Automated Grade Management and Migration System",
+    subheading: "Full-stack Developer",
+    date: "Dec 2024 - Present",
+    description:
+      "Working with a team of five under a professor's guidance to develop a reliable grade migration system for Colorado School of Mines. This service enhances workflows for teachers, students, and TAs by streamlining grade transfers across platforms. Employing REST API architecture with secure user authentication via Authentik and full CRUD functionality. Developed using agile sprints, containerized Spring Boot (Java), PostgreSQL, React-Typescript, and CI/CD pipelines on Microsoft Azure. 🚀",
+    direction: "right",
+  },
+  {
     heading: "ARIA Lab, School of Mines",
     subheading: "RTK GPS Development",
     date: "Sep 2024 - Present",
     description:
-      "I'm currently helping at ARIA Lab as a undergraduate researcher to develop a RTK GPS system to be used for various projects within the robotics lab; currently integrating with a spot robot to help test different SLAM algorithms. 📡",
+      "Contributing as an undergraduate researcher in ARIA Lab to create an RTK GPS system for robotics projects. Currently integrating it with a Spot robot to support testing of various SLAM algorithms. 📡",
     direction: "left",
   },
   {
     heading: "Colorado School of Mines, Computer Science",
-    subheading: "Artifical Intellegence and Robotics",
+    subheading: "Artificial Intelligence and Robotics",
     date: "Aug 2024 - Present",
-    description: "I'm currently a student getting my bachelors in Computer Science at CSM with a focus in Artificial Intelligence and Robotics! 🖥",
+    description: "Pursuing a Bachelor's degree in Computer Science at CSM with a concentration in Artificial Intelligence and Robotics! 🖥",
     direction: "right",
   },
   {
     heading: "Code Ninjas",
     subheading: "Coding Instructor",
     date: "Dec 2019 - Present",
-    description: "I help teach kids how to code in Javascript, C#, Lua, and Python. I also have developed game servers for Code Ninjas to be able to host parties and other events.  👨‍💻",
+    description: "Teaching kids how to code in JavaScript, C#, Lua, and Python. Additionally developed game servers to host parties and events for Code Ninjas. 👨‍💻",
     direction: "left",
   },
   {
     heading: "Red Rocks Community College",
-    subheading: "Associates of Engineering",
+    subheading: "Associate of Engineering",
     date: "Aug 2023 - Aug 2024",
-    description: "I went to Red Rocks Community College to persure my education in engineering and computer science. 🎓",
+    description: "Attended Red Rocks Community College to advance my education in engineering and computer science. 🎓",
     direction: "right",
   },
   {
     heading: "Warren Tech Game Development",
     subheading: "Game Programming and Development",
     date: "Aug 2021 - May 2022",
-    description: "I participated in Warren Tech's Game Devlopment Course where I worked in a team to make different games within Unreal Engine as well as Unity. 🎮",
+    description: "Participated in Warren Tech's Game Development course, working with a team to create games using Unreal Engine and Unity. 🎮",
     direction: "left",
   },
 ];
