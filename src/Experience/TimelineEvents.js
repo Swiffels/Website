@@ -1,24 +1,24 @@
 const experience = [
   {
     heading: "Colorado School of Mines, Computer Science",
-    subheading: "Master's Degree, Computer Science",
-    date: "May 2025 - Present",
-    description: "Pursuing a Master's degree in Computer Science at CSM with a concentration in Machine Learning! 📚",
+    subheading: "Masters Degree in Machine Learning",
+    date: "Aug 2025 - Dec 2026",
+    description: "Pursuing a Master's degree in Computer Science at CSM with a concentration in Machine Learning! 🤖",
     direction: "left",
   },
   {
     heading: "Lockheed Martin",
     subheading: "Software Engineer Intern",
     date: "May 2025 - Present",
-    description: "Working as a software engineer intern to help develop and modernize a Cross Domain Solution that follow RTB requirments and is safe and secure! 🔐",
+    description: "Working on increasing security and doing verification checks on important software systems. 🔐",
     direction: "right",
   },
   {
-    heading: "Packtrain",
+    heading: "Automated Grade Management and Migration System",
     subheading: "Full-stack Developer",
     date: "Dec 2024 - May 2025",
     description:
-      "Working with a team of four under a professor's guidance to develop a reliable grade migration system for Colorado School of Mines. This service enhances workflows for teachers, students, and TAs by streamlining grade transfers across platforms. Employing REST API architecture with secure user authentication via Authentik and full CRUD functionality. Developed using agile sprints, containerized Spring Boot (Java), PostgreSQL, React-Typescript, and CI/CD pipelines on Microsoft Azure. 🚀",
+      "Working with a team of five under a professor's guidance to develop a reliable grade migration system for Colorado School of Mines. This service enhances workflows for teachers, students, and TAs by streamlining grade transfers across platforms. Employing REST API architecture with secure user authentication via Authentik and full CRUD functionality. Developed using agile sprints, containerized Spring Boot (Java), PostgreSQL, React-Typescript, and CI/CD pipelines. 🚀",
     direction: "left",
   },
   {
